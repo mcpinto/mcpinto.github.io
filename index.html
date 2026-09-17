@@ -4,8 +4,19 @@
 <title>Welcome to MCPinto's Github Pages</title>
 <style>
 html { color-scheme: light dark; }
-body { width: 90em; margin: 0 auto;
-font-family: Tahoma, Verdana, Arial, sans-serif; }
+body { width: 90em; margin: 0 auto; font-family: Tahoma, Verdana, Arial, sans-serif; }
+.share-xmpp {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border: 1px solid #002B5C;
+  border-radius: 4px;
+  color: #002B5C;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+.share-xmpp:hover { background: #002B5C; color: #fff; }
 </style>
 </head>
 <body>
@@ -14,6 +25,11 @@ font-family: Tahoma, Verdana, Arial, sans-serif; }
 
 <p>Eu estou no <a rel="me" href="https://ursal.zone/@mcpinto">Mastodon/Fediverso</a>.</p>
 
+<a href="xmpp:mcpinto@xmpp.social.br?message&body=Oi%2C%20como%20vai%20voc%C3%AA%3F" class="share-xmpp">
+  <img src="/img/xmpp-logo.svg" alt="XMPP" width="20" height="20" />
+  E posso ser contatado via XMPP
+</a>
+  
 <p><em>Powered by Github.</em></p>
 </body>
 </html>
